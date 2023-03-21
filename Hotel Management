@@ -112,7 +112,7 @@ def foodpurchased(self):
         while (1):
             gs=int(input("Enter the activity"))
             if(gs==1):
-                q=int(input("Enter the number of days you want to do gym"))
+                q=int(input("Enter the number of days you want to do the gym: "))
                 self.gs=self.gs+200*q
                 print("Rs",self.gs)
             elif(gs==2):
